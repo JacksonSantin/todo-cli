@@ -21,7 +21,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) + NPM e/ou [Yarn](https://yarnpkg.com/).
 Além disto é importante ter um bom editor para trabalhar com o código, sugiro o [VSCode](https://code.visualstudio.com/)
 
-# Instalação
+# 💿 Instalação
 
 ```sh
 npm install todo-cli-lib
