@@ -2,8 +2,9 @@
 
 const { Command } = require("commander");
 const { join } = require("path");
-const { input } = require("@inquirer/prompts");
+const { input, confirm } = require("@inquirer/prompts");
 const fs = require("fs");
+const ora = require("ora");
 const gradient = require("gradient-string");
 const figlet = require("figlet");
 const Table = require("cli-table");
@@ -113,22 +114,37 @@ program
 
 program
   .command("backup")
-  .description("Faz um backup dos todos")
-  .action(() => {
-    shell.mkdir("-p", "backup");
-    const command = shell.exec("mv ./todos.json ./backup/todos.json", {
-      silent: true,
+  .description("Faz um backup dos to-dos")
+  .action(async () => {
+    let answers;
+    answers = await confirm({
+      message:
+        "Você realmente gostaria de realizar o backup do arquivo todos.json?",
+      default: true,
     });
-    if (!command.code) {
-      console.log(
-        gradient(
-          "green",
-          "green"
-        )("Backup realizado com sucesso! To-dos zerados.")
-      );
+
+    if (answers) {
+      const spinner = ora("Iniciando backup... \n").start();
+
+      setTimeout(() => {
+        shell.mkdir("-p", "backup");
+        const command = shell.exec("mv ./todos.json ./backup/todos.json", {
+          silent: true,
+        });
+        if (!command.code) {
+          spinner.succeed(
+            gradient(
+              "green",
+              "green"
+            )("Backup realizado com sucesso! To-dos zerados.")
+          );
+        } else {
+          console.log(command.stderr);
+          spinner.fail(gradient("red", "red")("Erro ao realizar backup."));
+        }
+      }, 3000);
     } else {
-      console.log(command.stderr);
-      console.log(gradient("red", "red")("Erro ao realizar backup."));
+      console.log(gradient("#ffc107", "#ffc107")("Operação cancelada!"))
     }
   });
 
