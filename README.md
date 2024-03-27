@@ -1,26 +1,19 @@
-<h1 align="center"> 
-	To-do CLI
-</h1>
+# To-do CLI
 
----
 
 <p align="center">
+  <a href="https://badge.fury.io/js/todo-cli-lib"><img src="https://badge.fury.io/js/todo-cli-lib.png" alt="npm version" height="18"></a>
   <a href="https://about-me-jacksonsantin.vercel.app/">
     <img alt="Feito por Jackson Dhanyel Santin" src="https://img.shields.io/badge/feito%20por-Jackson-%238257E5">
   </a>
 </p>
 
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-tecnologias">Tecnologias</a> •  
- <a href="#-autor">Autor</a> 
-</p>
-
-## 💻 Sobre o projeto
+# 💻 Sobre o projeto
 
 **To-do CLI** - Criado uma CLI para fins de aprendizado, utilizando NodeJS.
 
----
+![image](https://github.com/JacksonSantin/todo-cli/assets/30778051/4fa396d1-6098-4446-90e1-fee5fabe35d6)
+
 
 ## Pré-requisitos
 
@@ -28,9 +21,13 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) + NPM e/ou [Yarn](https://yarnpkg.com/).
 Além disto é importante ter um bom editor para trabalhar com o código, sugiro o [VSCode](https://code.visualstudio.com/)
 
----
+# 💿 Instalação
 
-## 🛠 Tecnologias
+```sh
+npm install todo-cli-lib
+```
+
+# 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -50,9 +47,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 
----
 
-## 🦸 Autor
+# 🦸 Autor
 
 <table>
   <tr>
@@ -66,11 +62,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="mailto:jackdhanyelsn@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/jackson-dhanyel-santin" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 <a href="https://about-me-jacksonsantin.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-JDS SISTEMAS-333333?style=for-the-badge&logo=web&logoColor=white" target="_blank"></a> 
----
 
+---
 
 Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://about-me-jacksonsantin.vercel.app/#contato)
 
 Consulte informações sobre a licença do projeto [MIT](https://github.com/JacksonSantin/todo-cli/blob/master/LICENSE).
-
----
