@@ -21,6 +21,7 @@ const getJson = (path) => {
     return [];
   }
 };
+
 const saveJson = (path, data) =>
   fs.writeFileSync(path, JSON.stringify(data, null, "\t"));
 
