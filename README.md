@@ -36,10 +36,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Web** ([NodeJS](https://nodejs.org/en) + [JavaScript](https://www.javascript.com/))
 
-- **[Inquire](https://github.com/SBoudrias/Inquirer.js/tree/master)**
+- **[Inquirer](https://github.com/SBoudrias/Inquirer.js/tree/master)**
 - **[CLI Table](https://github.com/Automattic/cli-table)**
 - **[Commander](https://github.com/tj/commander.js/)**
 - **[Figlet](https://github.com/patorjk/figlet.js)**
+- **[Ora](https://github.com/sindresorhus/ora/)**
 - **[Gradient String](https://github.com/bokub/gradient-string)**
 - **[ShellJS](https://github.com/shelljs/shelljs)**
 
@@ -62,7 +63,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://instagram.com/jackson_santin" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href="https://twitter.com/dhanyeljack" target="_blank"><img src="https://img.shields.io/badge/Twitter-1d9bf0?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
 <a href="https://fb.com/jackson.santin.52" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a> 
-<a href = "mailto:jackdhanyelsn@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="mailto:jackdhanyelsn@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/jackson-dhanyel-santin" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 <a href="https://about-me-jacksonsantin.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-JDS SISTEMAS-333333?style=for-the-badge&logo=web&logoColor=white" target="_blank"></a> 
 ---
