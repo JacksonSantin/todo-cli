@@ -15,17 +15,17 @@
 ![image](https://github.com/JacksonSantin/todo-cli/assets/30778051/4fa396d1-6098-4446-90e1-fee5fabe35d6)
 
 
-# Instalação
-
-```sh
-npm install todo-cli-lib
-```
-
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) + NPM e/ou [Yarn](https://yarnpkg.com/).
 Além disto é importante ter um bom editor para trabalhar com o código, sugiro o [VSCode](https://code.visualstudio.com/)
+
+# Instalação
+
+```sh
+npm install todo-cli-lib
+```
 
 # 🛠 Tecnologias
 
