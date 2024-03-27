@@ -36,7 +36,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Web** ([NodeJS](https://nodejs.org/en) + [JavaScript](https://www.javascript.com/))
 
-- **[Inquire](https://github.com/SBoudrias/Inquirer.js/tree/master)**
+- **[Inquirer](https://github.com/SBoudrias/Inquirer.js/tree/master)**
 - **[CLI Table](https://github.com/Automattic/cli-table)**
 - **[Commander](https://github.com/tj/commander.js/)**
 - **[Figlet](https://github.com/patorjk/figlet.js)**
