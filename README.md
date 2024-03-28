@@ -24,7 +24,7 @@ Além disto é importante ter um bom editor para trabalhar com o código, sugiro
 # 💿 Instalação
 
 ```sh
-npm install todo-cli-lib
+npm install -g todo-cli-lib
 ```
 
 # 🛠 Tecnologias
