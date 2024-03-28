@@ -1,6 +1,6 @@
 {
   "name": "todo-cli-lib",
-  "version": "1.4.0",
+  "version": "$version",
   "description": "TODO CLI",
   "main": "index.js",
   "keywords": [
