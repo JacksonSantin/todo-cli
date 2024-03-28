@@ -9,7 +9,7 @@ const gradient = require("gradient-string");
 const figlet = require("figlet");
 const Table = require("cli-table");
 const packageVersion = require("./package.json");
-const todosPath = join(__dirname, "todos.json");
+const todosPath = join("./todos.json");
 const program = new Command();
 const shell = require("shelljs");
 
