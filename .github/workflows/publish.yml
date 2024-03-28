@@ -1,0 +1,19 @@
+name: Deploy todo,
+on:
+  release:
+    types: [created]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "18.x"
+          registry-url: https://registry.npmjs.org
+      - run: |
+          sed -i -e 's/$version/'${GITHUB_REF##*}' /g' package.json
+          cat package.json
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
