@@ -55,10 +55,11 @@ program
         message: "Qual é o seu to-do?",
         validate: (value) => (value ? true : "Não é permitido um to-do vazio."),
       });
+      todo = answare;
     }
     const data = getJson(todosPath);
     data.push({
-      title: todo || answare.todo,
+      title: todo,
       done: options.status === "true" || false,
     });
     saveJson(todosPath, data);
@@ -145,7 +146,7 @@ program
         }
       }, 3000);
     } else {
-      console.log(gradient("#ffc107", "#ffc107")("Operação cancelada!"))
+      console.log(gradient("#ffc107", "#ffc107")("Operação cancelada!"));
     }
   });
 
