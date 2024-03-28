@@ -12,7 +12,8 @@ jobs:
           node-version: "18.x"
           registry-url: https://registry.npmjs.org
       - run: |
-          sed -i -e 's/$version/'${GITHUB_REF##*}' /g' package.json
+          version=$(echo ${GITHUB_REF##*/} | tr -d 'v')
+          sed -i "s/\"\$version\"/\"$version\"/g" package.json
           cat package.json
           npm publish
         env:
