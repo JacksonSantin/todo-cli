@@ -64,6 +64,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://jackson-santin.dev.br)
+Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://gravatar.com/jackdevbr)
 
 Consulte informações sobre a licença do projeto [MIT](https://github.com/JacksonSantin/todo-cli/blob/master/LICENSE).
