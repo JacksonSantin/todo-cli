@@ -61,10 +61,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://fb.com/jackson.santin.52" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877f2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a> 
 <a href="mailto:jackdhanyelsn@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/jackson-dhanyel-santin" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-<a href="https://about-me-jacksonsantin.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-JDS SISTEMAS-333333?style=for-the-badge&logo=web&logoColor=white" target="_blank"></a> 
+<a href="https://jackson-santin.dev.br" target="_blank"><img src="https://img.shields.io/badge/-ABOUT-ME-333333?style=for-the-badge&logo=web&logoColor=white" target="_blank"></a> 
 
 ---
 
-Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://about-me-jacksonsantin.vercel.app/#contato)
+Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://jackson-santin.dev.br)
 
 Consulte informações sobre a licença do projeto [MIT](https://github.com/JacksonSantin/todo-cli/blob/master/LICENSE).
